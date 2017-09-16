@@ -1,0 +1,78 @@
+	@media only screen and (max-width: 768px) {
+		#mobile {
+			font-size:12px !important;
+		}
+	}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 500;	
+}
+
+	
+a {
+	color: black !important;
+}
+#particle {
+	background: #232526;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(left, #414345, #232526);
+	background: -o-linear-gradient(left, #414345, #232526);
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:0; 
+}
+
+
+
+
+button:hover {
+	box-shadow: inset 0 0 0 2.0px #cd1d67;
+	transition-delay:.10s;
+	font-size: 26px !important;
+	color: black !important;
+	
+}
+button {
+	width: 26%;
+	letter-spacing: 1.5px;
+	font-size: 24px !important;
+	
+}
+button:focus {outline:none !important ;}
+
+#intro {
+	position: relative;
+	margin:12% 0;
+	text-align: center;
+}
+
+p {
+	font-size: 45px;
+	
+	line-height: 60px;
+	color: white;
+	padding: 40px;
+
+}
+
+
+img {
+	position: relative;
+	width: 30%;
+	height: 30%;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 4.5px solid gray !important;
+
+}
+
+div span {
+	color: #cd1d67;
+}
+
